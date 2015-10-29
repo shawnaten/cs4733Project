@@ -2,11 +2,11 @@
 
 
 ## Notes
-Basing this off the Instagram API.
+- Basing this off the Instagram API.  
 https://instagram.com/developer/endpoints/
-The error codes will follow the HTTP codes:
+- The error codes will follow the HTTP codes.  
 http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html
-Why we require a username & password for each request.
+- Why we require a username & password for each request.  
 http://stackoverflow.com/questions/6068113/do-sessions-really-violate-restfulness
 
 
