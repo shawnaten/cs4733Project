@@ -12,8 +12,7 @@ http://stackoverflow.com/questions/6068113/do-sessions-really-violate-restfulnes
 
 ## Changes
 - **10-29-15** First draft; account endpoints.
-- **11-3-15** Providing examples. Change to _Change Password_ error
-causes.
+- **11-3-15** Providing examples. Modified _Change Password_ error causes.
 
 
 ## JSON Response Model
