@@ -11,8 +11,8 @@ http://stackoverflow.com/questions/6068113/do-sessions-really-violate-restfulnes
 
 
 ## Changes
-- **10-29-15 1:43 pm:** First draft; account endpoints.
-- **11-3-15 1:27 pm:** Providing examples. Change to _Change Password_ error
+- **10-29-15** First draft; account endpoints.
+- **11-3-15** Providing examples. Change to _Change Password_ error
 causes.
 
 
