@@ -12,6 +12,8 @@ http://stackoverflow.com/questions/6068113/do-sessions-really-violate-restfulnes
 
 ## Changes
 - **10-29-15 1:43 pm:** First draft; account endpoints.
+- **11-3-15 1:27 pm:** Providing examples. Change to _Change Password_ error
+causes.
 
 
 ## JSON Response Model
@@ -33,7 +35,9 @@ http://stackoverflow.com/questions/6068113/do-sessions-really-violate-restfulnes
 
 ## Account Endpoints
 ### Create
-`/account/create/{bank-id}?name=NAME&email=EMAIL/`
+`/account/create/{bank-id}?name=NAME&email=EMAIL/`  
+`/account/create/609afe81339a6a838178f4d35caf5ace?name=Rowdy+Roadrunner&email=
+rowdy.roadrunner@utsa.edu`
 
 Possible Error Messages:
 - "bank-id invalid"
@@ -46,10 +50,12 @@ If the temp password is not changed within **10 minutes** the username is freed
 and you must start over.
 
 ### Change Password
-`/account/password/{email}?old_password=OLD-PASSWORD&new_password=NEW-PASSWORD/`
+`/account/password/{email}?old_password=OLD-PASSWORD&new_password=NEW-PASSWORD/`  
+`/account/password/rowdy.roadrunner@utsa.edu?old_password=d1365f&new_password=
+19CaWmItN69/`
 
 Possible Error Causes:
-- "username invalid"
+- "email invalid"
 - "temp-password invalid"
 - "new-password invalid"
 
@@ -59,6 +65,8 @@ password.
 
 ### Change Your Email
 `/account/email/{old-email}?password=PASSWORD&new_email=NEW-EMAIL`
+`/account/password/rowdy.roadrunner@utsa.edu?password=d1365f&new_email=
+prof.rowdy.roadrunner@utsa.edu/`
 
 Possible Error Causes:
 - "login invalid"
@@ -68,6 +76,7 @@ Notes:
 
 ### Initiate Account Deletion
 `/account/delete/initiate/{email}?password=PASSWORD`
+`/account/delete/initiate/rowdy.roadrunner@utsa.edu?password=19CaWmItN69`
 
 Possible Error Causes:
 - "login invalid"
@@ -76,6 +85,8 @@ Notes:
 
 ### Confirm Account Deletion
 `/account/delete/confirm/{email}?password=PASSWORD?token=TOKEN`
+`/account/delete/confirm/rowdy.roadrunner@utsa.edu?password=19CaWmItN69?token=
+cdc91f`
 
 Possible Error Causes:
 - "login invalid"
