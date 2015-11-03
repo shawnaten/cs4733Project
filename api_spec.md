@@ -36,8 +36,7 @@ causes.
 ## Account Endpoints
 ### Create
 `/account/create/{bank-id}?name=NAME&email=EMAIL/`  
-`/account/create/609afe81339a6a838178f4d35caf5ace?name=Rowdy+Roadrunner&email=
-rowdy.roadrunner@utsa.edu`
+`/account/create/609afe81339a6a838178f4d35caf5ace?name=Rowdy+Roadrunner&email=rowdy.roadrunner@utsa.edu`
 
 Possible Error Messages:
 - "bank-id invalid"
@@ -51,8 +50,7 @@ and you must start over.
 
 ### Change Password
 `/account/password/{email}?old_password=OLD-PASSWORD&new_password=NEW-PASSWORD/`  
-`/account/password/rowdy.roadrunner@utsa.edu?old_password=d1365f&new_password=
-19CaWmItN69/`
+`/account/password/rowdy.roadrunner@utsa.edu?old_password=d1365f&new_password=19CaWmItN69/`
 
 Possible Error Causes:
 - "email invalid"
@@ -65,8 +63,7 @@ password.
 
 ### Change Your Email
 `/account/email/{old-email}?password=PASSWORD&new_email=NEW-EMAIL`
-`/account/password/rowdy.roadrunner@utsa.edu?password=d1365f&new_email=
-prof.rowdy.roadrunner@utsa.edu/`
+`/account/password/rowdy.roadrunner@utsa.edu?password=d1365f&new_email=prof.rowdy.roadrunner@utsa.edu/`
 
 Possible Error Causes:
 - "login invalid"
@@ -85,8 +82,7 @@ Notes:
 
 ### Confirm Account Deletion
 `/account/delete/confirm/{email}?password=PASSWORD?token=TOKEN`
-`/account/delete/confirm/rowdy.roadrunner@utsa.edu?password=19CaWmItN69?token=
-cdc91f`
+`/account/delete/confirm/rowdy.roadrunner@utsa.edu?password=19CaWmItN69?token=cdc91f`
 
 Possible Error Causes:
 - "login invalid"
