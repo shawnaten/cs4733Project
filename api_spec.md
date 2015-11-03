@@ -62,7 +62,7 @@ password.
 
 ### Change Your Email
 `/account/email/{old-email}?password=PASSWORD&new_email=NEW-EMAIL`
-`/account/password/rowdy.roadrunner@utsa.edu?password=d1365f&new_email=prof.rowdy.roadrunner@utsa.edu/`
+`/account/password/rowdy.roadrunner@utsa.edu?password=19CaWmItN69&new_email=prof.rowdy.roadrunner@utsa.edu/`
 
 Possible Error Causes:
 - "login invalid"
