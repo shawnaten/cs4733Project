@@ -33,7 +33,7 @@ for gender in first_name_genders:
 last_names = ["Gonzalez", "Guadalupe", "Hernandez", "Lee", "Shelby", "Wurzbach",
     "Butt", "De Zavala", "Perrin", "Beitel"]
 
-# compute all permutations, yay for vocabulary
+# compute all possible names
 full_names = []
 max_len = 0
 for gender in first_name_genders:
