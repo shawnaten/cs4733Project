@@ -11,8 +11,9 @@ http://stackoverflow.com/questions/6068113/do-sessions-really-violate-restfulnes
 
 
 ## Changes
-- **10-29-15** First draft; account endpoints.
+- **11-5-15** Adding SSN to account creation endpoint.
 - **11-3-15** Providing examples. Modified _Change Password_ error causes.
+- **10-29-15** First draft; account endpoints.
 
 
 ## JSON Response Model
@@ -34,8 +35,8 @@ http://stackoverflow.com/questions/6068113/do-sessions-really-violate-restfulnes
 
 ## Account Endpoints
 ### Create
-`/account/create/{bank-id}?name=NAME&email=EMAIL/`  
-`/account/create/609afe81339a6a838178f4d35caf5ace?name=Rowdy+Roadrunner&email=rowdy.roadrunner@utsa.edu`
+`/account/create/{bank-id}?ssn=SSN&name=NAME&email=EMAIL/`  
+`/account/create/609afe81339a6a838178f4d35caf5ace?ssn=000000000&name=Rowdy+Roadrunner&email=rowdy.roadrunner@utsa.edu`
 
 Possible Error Messages:
 - "bank-id invalid"
