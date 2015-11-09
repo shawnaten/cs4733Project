@@ -15,8 +15,8 @@ var mongoose = require ('mongoose');
 var reg = require('./config/register');
 var login = require('./config/login');
 var User = require('./config/models');
-var chgpass = require('./config/chgPass');
-var chgemail = require('./config/chgEmail');
+var chgpass = require('./config/chgpass');
+var chgemail = require('./config/chgemail');
 
 // Configuration
 app.use(express.static(__dirname + '/public'));
