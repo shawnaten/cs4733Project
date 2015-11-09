@@ -8,6 +8,7 @@ var User = require('../config/models');
 var CustomMail = require('../config/emailAdapter');
 var express = require('express');
 var pin = require('../config/pinGenerator');
+var status = require('accountReset');
 
 //capatilize first letter
 //String.prototype.capitalizeFirstLetter = function() {
@@ -109,6 +110,14 @@ exports.register = function(email,accntid,ssn,name,callback){
                         console.log("email sent ");
                     });
 
+                    //delete account if not validated in 30 secs.
+                    //todo change timer
+                    setTimeout(function(email) {
+                        status.status(email,function (found) {
+                                console.log(found);
+                            //    //res.json(found);
+                        });
+                    },30000 ,email);
                 }
             });
 

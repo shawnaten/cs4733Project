@@ -1,8 +1,8 @@
 /**
  * Created by Sohail on 10/24/15.
  */
-var chgpass = require('../config/chgpass');
-var chgemail = require('../config/chgemail');
+var chgpass = require('../config/chgPass');
+var chgemail = require('../config/chgEmail');
 var register = require('../config/register');
 var login = require('../config/login');
 
@@ -55,6 +55,15 @@ module.exports = function(app) {
         });
     });
 
+    app.post('/account/login',function(req,res){
+        var email = req.body.email;
+        var password = req.body.password;
+
+        login.login(email,password,function (found) {
+            console.log(found);
+            res.json(found);
+        });
+    });
 
 };
 
