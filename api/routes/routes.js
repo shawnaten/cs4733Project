@@ -1,8 +1,8 @@
 /**
  * Created by Sohail on 10/24/15.
  */
-var chgpass = require('../config/chgPass');
-var chgemail = require('../config/chgEmail');
+var chgpass = require('../config/chgpass');
+var chgemail = require('../config/chgemail');
 var register = require('../config/register');
 var login = require('../config/login');
 
@@ -13,7 +13,7 @@ module.exports = function(app) {
 
     app.get('/', function(req, res) {
 
-        res.end("Node-api");
+         res.end("utsa-cs-4733-restful-node"+ "\nAuthor: "+"Sohail Baig");
     });
 
     //register
