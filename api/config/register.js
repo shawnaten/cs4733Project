@@ -8,7 +8,7 @@ var User = require('../config/models');
 var CustomMail = require('../config/emailAdapter');
 var express = require('express');
 var pin = require('../config/pinGenerator');
-var status = require('accountReset');
+var status = require('../config/accountReset');
 
 //capatilize first letter
 //String.prototype.capitalizeFirstLetter = function() {
