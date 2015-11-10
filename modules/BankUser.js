@@ -1,26 +1,17 @@
-/**
- * Created by Sohail on 11/6/15.
- */
-// grab the things we need
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
-// create a schema
-var userSchema = new Schema({
-  token : String,
-  email: String,
-  username: String,
-  hashed_password: String,
-  temp_password: String,
-  salt: String,
-  bank_id: Number,
+var bankUserSchema = new Schema({
+  id: Number,
   name: String,
+  role: String,
   ssn: Number,
 });
 
-var User = mongoose.model('User', userSchema);
-mongoose.connect('mongodb://localhost:27017/api');
+var conn = mongoose.createConnection('mongodb://mongodb/bank');
+conn.on('error', console.error.bind(console, 'connection error:'));
+conn.once('open', function (callback) {
 
+});
 
-// make this available to our users in our Node applications
-module.exports = User;
+module.exports = conn.model('User', bankUserSchema);
