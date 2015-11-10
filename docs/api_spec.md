@@ -39,10 +39,8 @@ http://stackoverflow.com/questions/6068113/do-sessions-really-violate-restfulnes
 `/account/create/609afe81339a6a838178f4d35caf5ace?ssn=000000000&name=Rowdy+Roadrunner&email=rowdy.roadrunner@utsa.edu`
 
 Possible Error Messages:
-- "bank-id invalid"
-- "bank-id taken"
-- "name invalid"
-- "email invalid"
+- "user not found"
+- "account exists"
 
 Notes:
 If the temp password is not changed within **10 minutes** the username is freed
