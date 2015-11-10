@@ -1,60 +1,60 @@
-{ "bank-id": 0, "name": "Liam Guadalupe", "ssn": 170483472 }
-{ "bank-id": 1, "name": "London Perrin", "ssn": 955961866 }
-{ "bank-id": 2, "name": "José De Zavala", "ssn": 558994585 }
-{ "bank-id": 3, "name": "Aria Hernandez", "ssn": 878387350 }
-{ "bank-id": 4, "name": "Shane Butt", "ssn": 993279341 }
-{ "bank-id": 5, "name": "Daniel Guadalupe", "ssn": 377655658 }
-{ "bank-id": 6, "name": "Garnet Beitel", "ssn": 807871269 }
-{ "bank-id": 7, "name": "Abigail Lee", "ssn": 255586479 }
-{ "bank-id": 8, "name": "Emily Hernandez", "ssn": 442964430 }
-{ "bank-id": 9, "name": "Alexis Gonzalez", "ssn": 307966663 }
-{ "bank-id": 10, "name": "Kelsie Perrin", "ssn": 716613537 }
-{ "bank-id": 11, "name": "Cory Lee", "ssn": 101523934 }
-{ "bank-id": 12, "name": "Sandy Wurzbach", "ssn": 194309555 }
-{ "bank-id": 13, "name": "Shane Lee", "ssn": 854806250 }
-{ "bank-id": 14, "name": "Michael Butt", "ssn": 29195732 }
-{ "bank-id": 15, "name": "Levi Perrin", "ssn": 451299974 }
-{ "bank-id": 16, "name": "Isabella Butt", "ssn": 639224828 }
-{ "bank-id": 17, "name": "Jasmine Hernandez", "ssn": 711133271 }
-{ "bank-id": 18, "name": "Shane Beitel", "ssn": 96352348 }
-{ "bank-id": 19, "name": "Kevin Wurzbach", "ssn": 349404711 }
-{ "bank-id": 20, "name": "Kelsie Wurzbach", "ssn": 40721773 }
-{ "bank-id": 21, "name": "Shane Shelby", "ssn": 1603748 }
-{ "bank-id": 22, "name": "Edward De Zavala", "ssn": 866817522 }
-{ "bank-id": 23, "name": "José Lee", "ssn": 874941729 }
-{ "bank-id": 24, "name": "Garnet De Zavala", "ssn": 967382619 }
-{ "bank-id": 25, "name": "Jasmine Shelby", "ssn": 475277631 }
-{ "bank-id": 26, "name": "Emma Perrin", "ssn": 716925833 }
-{ "bank-id": 27, "name": "Marie De Zavala", "ssn": 374593423 }
-{ "bank-id": 28, "name": "José Guadalupe", "ssn": 126599540 }
-{ "bank-id": 29, "name": "Kelsie Guadalupe", "ssn": 380422868 }
-{ "bank-id": 30, "name": "Sebastian Guadalupe", "ssn": 432496887 }
-{ "bank-id": 31, "name": "Kassidy Wurzbach", "ssn": 910808848 }
-{ "bank-id": 32, "name": "Francis Shelby", "ssn": 741744741 }
-{ "bank-id": 33, "name": "Edward Shelby", "ssn": 994771761 }
-{ "bank-id": 34, "name": "Thomas Hernandez", "ssn": 55848762 }
-{ "bank-id": 35, "name": "Michael De Zavala", "ssn": 817335965 }
-{ "bank-id": 36, "name": "Alexis Lee", "ssn": 273138490 }
-{ "bank-id": 37, "name": "Francis Butt", "ssn": 68369517 }
-{ "bank-id": 38, "name": "Michael Guadalupe", "ssn": 787863591 }
-{ "bank-id": 39, "name": "Shane Wurzbach", "ssn": 31455587 }
-{ "bank-id": 40, "name": "Aldus Beitel", "ssn": 372681261 }
-{ "bank-id": 41, "name": "Taylor De Zavala", "ssn": 13067829 }
-{ "bank-id": 42, "name": "Mia Beitel", "ssn": 450335767 }
-{ "bank-id": 43, "name": "Addison Wurzbach", "ssn": 985529573 }
-{ "bank-id": 44, "name": "Kelsie Hernandez", "ssn": 172522626 }
-{ "bank-id": 45, "name": "Mia Shelby", "ssn": 849419983 }
-{ "bank-id": 46, "name": "Sandy Shelby", "ssn": 66469789 }
-{ "bank-id": 47, "name": "Alexis Shelby", "ssn": 978472826 }
-{ "bank-id": 48, "name": "Mia Guadalupe", "ssn": 166649482 }
-{ "bank-id": 49, "name": "Mia Gonzalez", "ssn": 291234646 }
-{ "bank-id": 50, "name": "Cory De Zavala", "ssn": 570455442 }
-{ "bank-id": 51, "name": "Shane Hernandez", "ssn": 559898453 }
-{ "bank-id": 52, "name": "Abigail Shelby", "ssn": 648998251 }
-{ "bank-id": 53, "name": "Emily Guadalupe", "ssn": 778483158 }
-{ "bank-id": 54, "name": "Taylor Beitel", "ssn": 557991734 }
-{ "bank-id": 55, "name": "Francis Gonzalez", "ssn": 317855441 }
-{ "bank-id": 56, "name": "Francis Beitel", "ssn": 8178857 }
-{ "bank-id": 57, "name": "Michael Beitel", "ssn": 34417563 }
-{ "bank-id": 58, "name": "Garnet Perrin", "ssn": 240795610 }
-{ "bank-id": 59, "name": "Olivia Wurzbach", "ssn": 451907378 }
+{ "bank-id": 0, "name": "Liam Guadalupe", "role": "employee", "ssn": 170483472 }
+{ "bank-id": 1, "name": "London Perrin", "role": "employee", "ssn": 955961866 }
+{ "bank-id": 2, "name": "José De Zavala", "role": "employee", "ssn": 558994585 }
+{ "bank-id": 3, "name": "Aria Hernandez", "role": "customer", "ssn": 878387350 }
+{ "bank-id": 4, "name": "Shane Butt", "role": "customer", "ssn": 993279341 }
+{ "bank-id": 5, "name": "Daniel Guadalupe", "role": "customer", "ssn": 377655658 }
+{ "bank-id": 6, "name": "Garnet Beitel", "role": "customer", "ssn": 807871269 }
+{ "bank-id": 7, "name": "Abigail Lee", "role": "customer", "ssn": 255586479 }
+{ "bank-id": 8, "name": "Emily Hernandez", "role": "customer", "ssn": 442964430 }
+{ "bank-id": 9, "name": "Alexis Gonzalez", "role": "employee", "ssn": 307966663 }
+{ "bank-id": 10, "name": "Kelsie Perrin", "role": "employee", "ssn": 716613537 }
+{ "bank-id": 11, "name": "Cory Lee", "role": "employee", "ssn": 101523934 }
+{ "bank-id": 12, "name": "Sandy Wurzbach", "role": "customer", "ssn": 194309555 }
+{ "bank-id": 13, "name": "Shane Lee", "role": "customer", "ssn": 854806250 }
+{ "bank-id": 14, "name": "Michael Butt", "role": "customer", "ssn": 29195732 }
+{ "bank-id": 15, "name": "Levi Perrin", "role": "customer", "ssn": 451299974 }
+{ "bank-id": 16, "name": "Isabella Butt", "role": "customer", "ssn": 639224828 }
+{ "bank-id": 17, "name": "Jasmine Hernandez", "role": "customer", "ssn": 711133271 }
+{ "bank-id": 18, "name": "Shane Beitel", "role": "customer", "ssn": 96352348 }
+{ "bank-id": 19, "name": "Kevin Wurzbach", "role": "customer", "ssn": 349404711 }
+{ "bank-id": 20, "name": "Kelsie Wurzbach", "role": "employee", "ssn": 40721773 }
+{ "bank-id": 21, "name": "Shane Shelby", "role": "employee", "ssn": 1603748 }
+{ "bank-id": 22, "name": "Edward De Zavala", "role": "employee", "ssn": 866817522 }
+{ "bank-id": 23, "name": "José Lee", "role": "customer", "ssn": 874941729 }
+{ "bank-id": 24, "name": "Garnet De Zavala", "role": "customer", "ssn": 967382619 }
+{ "bank-id": 25, "name": "Jasmine Shelby", "role": "customer", "ssn": 475277631 }
+{ "bank-id": 26, "name": "Emma Perrin", "role": "customer", "ssn": 716925833 }
+{ "bank-id": 27, "name": "Marie De Zavala", "role": "customer", "ssn": 374593423 }
+{ "bank-id": 28, "name": "José Guadalupe", "role": "customer", "ssn": 126599540 }
+{ "bank-id": 29, "name": "Kelsie Guadalupe", "role": "customer", "ssn": 380422868 }
+{ "bank-id": 30, "name": "Sebastian Guadalupe", "role": "employee", "ssn": 432496887 }
+{ "bank-id": 31, "name": "Kassidy Wurzbach", "role": "employee", "ssn": 910808848 }
+{ "bank-id": 32, "name": "Francis Shelby", "role": "employee", "ssn": 741744741 }
+{ "bank-id": 33, "name": "Edward Shelby", "role": "customer", "ssn": 994771761 }
+{ "bank-id": 34, "name": "Thomas Hernandez", "role": "customer", "ssn": 55848762 }
+{ "bank-id": 35, "name": "Michael De Zavala", "role": "customer", "ssn": 817335965 }
+{ "bank-id": 36, "name": "Alexis Lee", "role": "customer", "ssn": 273138490 }
+{ "bank-id": 37, "name": "Francis Butt", "role": "customer", "ssn": 68369517 }
+{ "bank-id": 38, "name": "Michael Guadalupe", "role": "customer", "ssn": 787863591 }
+{ "bank-id": 39, "name": "Shane Wurzbach", "role": "customer", "ssn": 31455587 }
+{ "bank-id": 40, "name": "Aldus Beitel", "role": "employee", "ssn": 372681261 }
+{ "bank-id": 41, "name": "Taylor De Zavala", "role": "employee", "ssn": 13067829 }
+{ "bank-id": 42, "name": "Mia Beitel", "role": "employee", "ssn": 450335767 }
+{ "bank-id": 43, "name": "Addison Wurzbach", "role": "customer", "ssn": 985529573 }
+{ "bank-id": 44, "name": "Kelsie Hernandez", "role": "customer", "ssn": 172522626 }
+{ "bank-id": 45, "name": "Mia Shelby", "role": "customer", "ssn": 849419983 }
+{ "bank-id": 46, "name": "Sandy Shelby", "role": "customer", "ssn": 66469789 }
+{ "bank-id": 47, "name": "Alexis Shelby", "role": "customer", "ssn": 978472826 }
+{ "bank-id": 48, "name": "Mia Guadalupe", "role": "customer", "ssn": 166649482 }
+{ "bank-id": 49, "name": "Mia Gonzalez", "role": "customer", "ssn": 291234646 }
+{ "bank-id": 50, "name": "Cory De Zavala", "role": "employee", "ssn": 570455442 }
+{ "bank-id": 51, "name": "Shane Hernandez", "role": "employee", "ssn": 559898453 }
+{ "bank-id": 52, "name": "Abigail Shelby", "role": "employee", "ssn": 648998251 }
+{ "bank-id": 53, "name": "Emily Guadalupe", "role": "customer", "ssn": 778483158 }
+{ "bank-id": 54, "name": "Taylor Beitel", "role": "customer", "ssn": 557991734 }
+{ "bank-id": 55, "name": "Francis Gonzalez", "role": "customer", "ssn": 317855441 }
+{ "bank-id": 56, "name": "Francis Beitel", "role": "customer", "ssn": 8178857 }
+{ "bank-id": 57, "name": "Michael Beitel", "role": "customer", "ssn": 34417563 }
+{ "bank-id": 58, "name": "Garnet Perrin", "role": "customer", "ssn": 240795610 }
+{ "bank-id": 59, "name": "Olivia Wurzbach", "role": "customer", "ssn": 451907378 }
