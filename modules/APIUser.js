@@ -7,7 +7,7 @@ var APIUserSchema = new Schema({
   password: String
 });
 
-var conn = mongoose.createConnection('mongodb://mongodb/api');
+var conn = mongoose.createConnection('mongodb://db/api');
 conn.on('error', console.error.bind(console, 'connection error:'));
 conn.once('open', function (callback) {
 

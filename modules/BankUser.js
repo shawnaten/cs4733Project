@@ -8,7 +8,7 @@ var bankUserSchema = new Schema({
   ssn: Number,
 });
 
-var conn = mongoose.createConnection('mongodb://mongodb/bank');
+var conn = mongoose.createConnection('mongodb://db/bank');
 conn.on('error', console.error.bind(console, 'connection error:'));
 conn.once('open', function (callback) {
 
