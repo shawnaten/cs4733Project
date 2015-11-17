@@ -1,0 +1,14 @@
+api:
+  build: .
+  links:
+    - db:db
+  environment:
+    - PORT=80
+  ports:
+    - 80:80
+  env_file: .env
+
+db:
+  image: tutum/mongodb
+  environment:
+    - AUTH=no
