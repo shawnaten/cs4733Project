@@ -1,13 +1,13 @@
 docker run \
 -it \
---link mongodb:mongodb \
+--link project_db_1:db \
 --rm \
--v "$PWD":/volume1 \
--w="/volume1" \
 tutum/mongodb \
+/bin/bash
+
 mongoimport \
 --collection users \
 --db bank \
 --drop \
---file docs/fake_bank.json \
---host mongodb
+--file fake_bank.json \
+--host db
