@@ -11,9 +11,19 @@ http://stackoverflow.com/questions/6068113/do-sessions-really-violate-restfulnes
 
 
 ## Changes
+- **11-17-15** Changed error messages for /account/create and
+/account/passoword. Added ip information for deployments.
 - **11-5-15** Adding SSN to account creation endpoint.
 - **11-3-15** Providing examples. Modified _Change Password_ error causes.
 - **10-29-15** First draft; account endpoints.
+
+
+## Running Deployment Info
+**PHP Team**  
+http://159.203.136.85/BankingSystem  
+**Node Team**  
+http://159.203.140.203/  
+- only /account/create endpoint is implemented
 
 
 ## JSON Response Model
@@ -51,9 +61,7 @@ and you must start over.
 `/account/password/rowdy.roadrunner@utsa.edu?old_password=d1365f&new_password=19CaWmItN69/`
 
 Possible Error Causes:
-- "email invalid"
-- "temp-password invalid"
-- "new-password invalid"
+- "login invalid"
 
 Notes:
 This applies to both changing your temporary password or a previously set
