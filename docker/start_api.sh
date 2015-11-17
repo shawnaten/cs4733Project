@@ -1,5 +1,6 @@
 docker run \
 -e "PORT=80" \
+-e "EMAIL_PASS=$EMAIL_PASS" \
 -it \
 --link mongodb:mongodb \
 --name api \
