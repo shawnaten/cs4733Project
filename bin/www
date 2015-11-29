@@ -8,6 +8,11 @@ var app = require('../app');
 var debug = require('debug')('app:server');
 var http = require('http');
 
+// Get Gmail password from environment or fail.
+var emailPass = process.env.EMAIL_PASS;
+if (!emailPass)
+  throw "EMAIL_PASS not set!";
+
 /**
  * Get port from environment and store in Express.
  */
