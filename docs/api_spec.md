@@ -16,6 +16,7 @@ http://stackoverflow.com/questions/6068113/do-sessions-really-violate-restfulnes
 - **11-5-15** Adding SSN to account creation endpoint.
 - **11-3-15** Providing examples. Modified _Change Password_ error causes.
 - **10-29-15** First draft; account endpoints.
+- **12-1-15** Update with realistic examples.
 
 
 ## Running Deployment Info
@@ -46,7 +47,7 @@ http://159.203.140.203/
 ## Account Endpoints
 ### Create
 `/account/create/{bank-id}?ssn=SSN&name=NAME&email=EMAIL/`  
-`/account/create/609afe81339a6a838178f4d35caf5ace?ssn=000000000&name=Rowdy+Roadrunner&email=rowdy.roadrunner@utsa.edu`
+`/account/create/0?ssn=170483472&name=Liam+Guadalupe&email=you@gmail.com`
 
 Possible Error Messages:
 - "user not found"
@@ -58,7 +59,7 @@ and you must start over.
 
 ### Change Password
 `/account/password/{email}?old_password=OLD-PASSWORD&new_password=NEW-PASSWORD/`  
-`/account/password/rowdy.roadrunner@utsa.edu?old_password=d1365f&new_password=19CaWmItN69/`
+`/account/password/you@gmail.com?old_password=8zpjiy99nfp4jb7t&new_password=i<3kittens/`
 
 Possible Error Causes:
 - "login invalid"
@@ -69,7 +70,7 @@ password.
 
 ### Change Your Email
 `/account/email/{old-email}?password=PASSWORD&new_email=NEW-EMAIL`
-`/account/password/rowdy.roadrunner@utsa.edu?password=19CaWmItN69&new_email=prof.rowdy.roadrunner@utsa.edu/`
+`/account/password/you@gmail.com?password=i<3kittens&new_email=new.you@gmail.com/`
 
 Possible Error Causes:
 - "login invalid"
@@ -79,7 +80,7 @@ Notes:
 
 ### Initiate Account Deletion
 `/account/delete/initiate/{email}?password=PASSWORD`
-`/account/delete/initiate/rowdy.roadrunner@utsa.edu?password=19CaWmItN69`
+`/account/delete/initiate/you@gmail.com?password=i<3kittens`
 
 Possible Error Causes:
 - "login invalid"
@@ -88,7 +89,7 @@ Notes:
 
 ### Confirm Account Deletion
 `/account/delete/confirm/{email}?password=PASSWORD?token=TOKEN`
-`/account/delete/confirm/rowdy.roadrunner@utsa.edu?password=19CaWmItN69?token=cdc91f`
+`/account/delete/confirm/you@gmail.com?password=i<3kittens?token=4xb7dsgksc99cjex`
 
 Possible Error Causes:
 - "login invalid"
