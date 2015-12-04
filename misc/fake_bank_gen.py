@@ -1,5 +1,8 @@
 # coding: utf-8
 
+# This script pseudo-randomly generates info for fake people.
+# This was used to create the info in docs/fake_bank.txt
+
 import random
 import sys
 
