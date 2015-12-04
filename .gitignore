@@ -34,3 +34,4 @@ node_modules
 
 # Idea from Jetbrains 
 .idea
+.idea/mongoSettings.xml
