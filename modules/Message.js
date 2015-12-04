@@ -15,7 +15,7 @@ var messageSchema = new Schema({
         to_trash : {type: Boolean, default: false}
     });
 
-var conn = mongoose.createConnection('mongodb://localhost:27017/message');
+var conn = mongoose.createConnection('mongodb://db/message');
 conn.on('error', console.error.bind(console, 'connection error:'));
 conn.once('open', function (callback) {});
 
