@@ -96,3 +96,52 @@ Possible Error Causes:
 - "token invalid"
 
 Notes:
+
+## Message Endpoints
+### Send
+`/message/send/{email}?password=PASSWORD&to=TO&title=TITLE&content=CONTENT/`  
+`/message/send/you@gmail.com?password=i<3kittens&to=Liam+Guadalupe&title=Message-Title&content=blah..blah..blah../.`
+
+Possible Error Messages:
+- "login invalid"
+
+Notes:
+The `to=` part must have full name of the reciepent as shown in example.
+
+### Check Inbox
+`/message/inbox/{email}?password=PASSWORD/`  
+`/message/inbox/you@gmail.com?password=8zpjiy99nfp4jb7t/`
+
+Possible Error Causes:
+- "login invalid"
+
+Notes:
+
+### Check Outbox
+`/message/outbox/{email}?password=PASSWORD/`  
+`/message/outbox/you@gmail.com?password=8zpjiy99nfp4jb7t/`
+
+Possible Error Causes:
+- "login invalid"
+
+Notes:
+
+### Check Trashbox
+`/message/trashbox/{email}?password=PASSWORD/`  
+`/message/trashbox/you@gmail.com?password=8zpjiy99nfp4jb7t/`
+
+Possible Error Causes:
+- "login invalid"
+
+Notes:
+
+### Mark Message as Trash
+`/message/markasTrash/{email}?password=PASSWORD&_id=id/`  
+`/message/markasTrash/you@gmail.com?password=8zpjiy99nfp4jb7t&_id=v2ev2ebm2eb2enbwjbnin2g2g2bm/`
+
+Possible Error Causes:
+- "login invalid"
+
+Notes:
+you must send the unique `_id` of the message marked for trash.
+
