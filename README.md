@@ -15,6 +15,8 @@
 There a few directories named unused that contain code that wasn't in use by
 the running app by the end of the project.
 
+![UML class diagram](misc/uml_class_diagram.svg)
+
 **Assuming Bash on Linux or OS X. Idk what Windows is.**
 
 You need to create modify the email in this
