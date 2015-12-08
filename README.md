@@ -15,7 +15,7 @@
 There a few directories named unused that contain code that wasn't in use by
 the running app by the end of the project.
 
-![UML class diagram](misc/uml_class_diagram.svg)
+![UML class diagram](misc/uml_class_diagram.png)
 
 **Assuming Bash on Linux or OS X. Idk what Windows is.**
 
