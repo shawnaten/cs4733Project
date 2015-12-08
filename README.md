@@ -17,6 +17,12 @@ the running app by the end of the project.
 
 **Assuming Bash on Linux or OS X. Idk what Windows is.**
 
+You need to create modify the email in this
+[file](modules/emailTransporter.js)
+to an email you can access. Create a file called `.env` with
+`EMAIL_PASS=your_password` in the root of the project directory. If you don't do
+this the app won't start.
+
 To run the app on your own. Setup Docker as per these
 [instructions](misc/setup.md)
 and run `docker-compose up -d`from the root directory of the project.
