@@ -8,7 +8,8 @@ https://instagram.com/developer/endpoints/
 http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html
 - Why we require a username & password for each request.  
 http://stackoverflow.com/questions/6068113/do-sessions-really-violate-restfulness
--Link to Android app 
+
+##Link to Android app 
 https://github.com/mirzasohailbaig/Android-Rest-FrontEnd-CS4773/tree/master/app/src/main
 
 ## Changes
