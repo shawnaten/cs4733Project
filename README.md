@@ -14,3 +14,14 @@
 
 There a few directories named unused that contain code that wasn't in use by
 the running app by the end of the project.
+
+**Assuming Bash on Linux or OS X. Idk what Windows is.**
+
+To run the app on your own. Setup Docker as per these
+[instructions](misc/setup.md)
+and run `docker-compose up -d`from the root directory of the project.
+
+**You need to load the bank users into DB before testing.**
+
+To load the fake bank info into the DB run `source misc/populate_db.sh` from
+the root directory of the project.
