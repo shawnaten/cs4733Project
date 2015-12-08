@@ -33,3 +33,6 @@ and run `docker-compose up -d`from the root directory of the project.
 
 To load the fake bank info into the DB run `source misc/populate_db.sh` from
 the root directory of the project.
+
+**Messaging was worked on in the testing branch but was not debugged in time
+for project submission.**
