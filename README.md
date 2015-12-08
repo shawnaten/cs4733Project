@@ -36,3 +36,7 @@ the root directory of the project.
 
 **Messaging was worked on in the testing branch but was not debugged in time
 for project submission.**
+
+We made a
+[sample Android app]( https://github.com/mirzasohailbaig/Android-Rest-FrontEnd-CS4773)
+to test the api.
