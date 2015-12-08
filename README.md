@@ -19,7 +19,7 @@ the running app by the end of the project.
 
 You need to create modify the email in this
 [file](modules/emailTransporter.js)
-to an email you can access. Create a file called `.env` with
+to an gMail you can access. Create a file called `.env` with
 `EMAIL_PASS=your_password` in the root of the project directory. If you don't do
 this the app won't start.
 
