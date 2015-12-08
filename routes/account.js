@@ -1,3 +1,5 @@
+// Handles all logic for /account endpoints.
+
 var APIUser = require('../modules/APIUser');
 var BankUser = require('../modules/BankUser');
 var bcrypt = require('bcrypt');

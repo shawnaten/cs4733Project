@@ -1,3 +1,5 @@
+// Config information for email client.
+
 var nodemailer = require('nodemailer');
 
 module.exports = nodemailer.createTransport({

@@ -1,3 +1,6 @@
+// Class for a user in our messaging service.
+// Outlines DB schema and handles common functions for APIUser objects.
+
 var bcrypt = require('bcrypt');
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
@@ -38,6 +41,7 @@ model.findByEmail = function (email, pass, callback) {
   }
 };
 
+// Takes a plaintext password and creates a hash. Doesn't access DB.
 model.setPassword = function(user, newPass, callback) {
   bcrypt.hash(newPass, 10, hashCB);
 
@@ -50,16 +54,5 @@ model.setPassword = function(user, newPass, callback) {
     }
   }
 };
-
-/*
-function responder(errorRes, successRes) {
-  return function (success) {
-    if (!success)
-      res.send(errorRes);
-    else
-      res.send(successRes);
-    };
-}
-*/
 
 module.exports = model;

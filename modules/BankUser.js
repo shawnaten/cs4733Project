@@ -1,3 +1,6 @@
+// Class representing user in Bank's DB.
+// Outlines DB schema.
+
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
