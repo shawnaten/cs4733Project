@@ -1,4 +1,6 @@
-# utsa-cs-4733-restful-node
+# UTSA CS 4733 Project
+
+This was a Software Engineering course project. It implements a RESTful API for a mock bank system using Node and Express. It's meant to be run using Docker.
 
 ## Project Hierarchy
 - /bin/www *inital startup script*
