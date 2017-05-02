@@ -1,6 +1,6 @@
 # UTSA CS 4733 Project
 
-This was a Software Engineering course project. It implements a RESTful API for a mock bank system using Node and Express. It's meant to be run using Docker.
+This was a Software Engineering course project. It implements a RESTful API for a mock bank system using Node, Express, and MongoDB. It's setup to run using Docker and Docker Compose.
 
 ## Project Hierarchy
 - /bin/www *inital startup script*
